@@ -156,18 +156,28 @@ footer a:hover {
         display: flex;
         gap: 30px;
     }
+    
+    
     #sobre {
         display: flex;
         gap: 30px;
     }
     #sobre h2,
     h2 {
-        border-bottom: none;
-        padding-bottom: 0px;
+        border-bottom: 2px solid black;
+        padding-bottom: 16px;
         margin-bottom: 0px;
+        padding-left: 16px;
     }
     #sobre p{
         text-align: justify;
+        padding-left: 16px;
+        padding-top: 16px;
+    }
+
+    #sobre img {
+        width: 500px;
+        border-radius: 15px;
     }
     
 }
